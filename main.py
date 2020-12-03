@@ -1,6 +1,7 @@
 from flask import Flask, json, request, redirect, url_for, Response, render_template
 from pymongo import MongoClient, TEXT
 
+
 app = Flask(__name__)
 USER = 'grupo23'
 PASS = 'grupo23'
